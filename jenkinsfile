@@ -1,7 +1,7 @@
 pipeline {
  agent any
 stages {
-stage ('checkout source code') {
+stage ('checkout scm') {
 steps {
  	//get source code from git repository
 	}
