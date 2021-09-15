@@ -1,3 +1,6 @@
+#!groovy
+@Library('latest-stable')
+
 pipeline {
  agent any
 stages {
