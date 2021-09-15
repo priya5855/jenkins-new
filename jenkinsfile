@@ -1,5 +1,5 @@
 #!groovy
-@Library('latest-stable')
+@Library('my-shared-library@master')
 
 pipeline {
  agent any
