@@ -13,7 +13,7 @@ steps {
 stage ('Build') {
 steps {
 	//run the following maven command
-sh "export PATH=$PATH:/home/ec2-user/maven"
+sh "export PATH=$PATH:/opt/maven/bin"
 sh "source /etc/profile"
 sh "mvn Dmaven.test.failure.ignore=true clean package"
 }
