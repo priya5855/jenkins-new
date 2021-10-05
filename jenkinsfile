@@ -7,6 +7,7 @@ stages {
 stage ('checkout scm') {
 steps {
  	//get source code from git repository
+	git changelog: false, credentialsId: 'eeff25d1-18ee-4295-a469-ac956e86e1db', poll: false, url: 'https://github.com/priya5855/jenkins-new.git'
 	}
 }
 stage ('Build') {
